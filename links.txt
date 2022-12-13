@@ -1,0 +1,15 @@
+report link:
+https://docs.google.com/document/d/1WddtqWVLZnJGBMNPeSybPAw2mxlAzzHHgXUAJTWz3UQ/edit?usp=sharing
+
+Github link:
+https://github.com/yashk0311/ML-Project-IsFraud/tree/main
+
+Data link:
+https://drive.google.com/drive/folders/1luIME_cNTrEgxIHKVulaER6xDlVy5a0p?usp=sharing
+
+
+After 2nd eval:
+best score: 86.1 XGBoost
+
+final submission:
+best score: 88.2 XGBoost (hard limit) 97.6 (soft limit)
