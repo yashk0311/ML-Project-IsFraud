@@ -12,9 +12,9 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from sklearn.preprocessing import StandardScaler
 
-train_df = pd.read_csv('../input/latest/train_df.csv')
-y_train = pd.read_csv('../input/latest/y_train.csv')
-test_df = pd.read_csv('../input/latest/test_df.csv')
+train_df = pd.read_csv('train_df.csv')
+y_train = pd.read_csv('y_train.csv')
+test_df = pd.read_csv('test_df.csv')
 
 y_train.drop(y_train.columns[[0]], axis=1, inplace=True)
 test_df.drop(test_df.columns[[0]], axis=1, inplace=True)
